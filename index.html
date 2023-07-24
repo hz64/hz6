@@ -113,6 +113,23 @@
 <body>
 
 <header>
+  
+<button onclick="myFunction()">======= 新的主页 =======</button>
+<p id="demo"></p>
+<script>
+function myFunction(){
+	var x;
+	var r=confirm("安全验证：点“确定”出链接");
+	if (r==true){
+		x="https://hz64.github.io/";
+	}
+	else{
+		x="Fcuk you 为什么不去";
+	}
+	document.getElementById("demo").innerHTML=x;
+}
+</script>
+
   <img src="./logo.png" alt="Logo" width="90" height="90">
   <h2>ZeAy的个人网站</h2>
   <div class="showTime">获取失败</div>
