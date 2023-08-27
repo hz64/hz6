@@ -227,18 +227,12 @@ function myFunction(){
 <script src="./js/vd2.js"></script>
 <script>
   var dp = new DPlayer({
+    const dp = new DPlayer({
     container: document.getElementById('dplayer'),
     video: {
-        url: 'https://tsze.pages.dev/mc/1/vd.m3u8',
-        type: 'hls',
-    },
-    pluginOptions: {
-        hls: {
-            // hls config
-        },
+        url: 'https://gitea.com/hz6/TPWJ/raw/commit/6eedb84081c2b8e64e1d03bf2b0e5985641dabd5/2023WWDC.mp4',
     },
 });
-console.log(dp.plugins.hls); // Hls 实例
 </script>
 
     <hr>
